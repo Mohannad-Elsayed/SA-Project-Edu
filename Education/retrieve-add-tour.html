@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Firebase Auth Example</title>
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-database-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-firestore-compat.js"></script>
+</head>
+
+<body>
+    <h1>Tour Management</h1>
+
+    <h2>Add a Tour</h2>
+    <form id="addTourForm">
+        <label for="tourid">Tour ID:</label>
+        <input type="text" id="tourid" name="tourid" required><br><br>
+        <label for="tourName">Tour Name:</label>
+        <input type="text" id="tourName" name="tourName" required><br><br>
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required><br><br>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br><br>
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required><br><br>
+        <button type="submit">Add Tour</button>
+    </form>
+
+    <h2>Retrieve a Tour</h2>
+    <label for="retrieveTourId">Tour ID:</label>
+    <input type="text" id="retrieveTourId" name="retrieveTourId" required>
+    <button onclick="retrieveTour()">Retrieve Tour</button>
+
+    <div id="tourDetails"></div>
+
+    <script>
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyBB_8JRR7pehfVX2lNy_xJWwkSSlKgYghU",
+            authDomain: "sa-project-edu.firebaseapp.com",
+            projectId: "sa-project-edu",
+            storageBucket: "sa-project-edu.appspot.com", // Corrected storage bucket URL
+            messagingSenderId: "360441031760",
+            appId: "1:360441031760:web:74b6f95d885cef9934b555",
+            measurementId: "G-6C2JWVGH4Y"
+        };
+
+        // Initialize Firebase
+        const app = firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+
+        // Function to add a tour
+        document.getElementById('addTourForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const tourid = document.getElementById('tourid').value;
+            const tourName = document.getElementById('tourName').value;
+            const location = document.getElementById('location').value;
+            const date = document.getElementById('date').value;
+            const time = document.getElementById('time').value;
+
+            db.collection('new-tour').add({
+                tourid: tourid,
+                tourName: tourName,
+                location: location,
+                date: date,
+                time: time
+            })
+                .then(docRef => {
+                    console.log("Document written with ID: ", docRef.id);
+                })
+                .catch(error => {
+                    console.error("Error adding document: ", error);
+                });
+        });
+
+        // Function to retrieve a tour by ID
+        function retrieveTour() {
+            const tourId = document.getElementById('retrieveTourId').value;
+            db.collection('new-tour').where('tourid', '==', tourId)
+                .get()
+                .then(snapshot => {
+                    if (snapshot.empty) {
+                        document.getElementById('tourDetails').innerText = 'No matching documents.';
+                        return;
+                    }
+                    snapshot.forEach(doc => {
+                        document.getElementById('tourDetails').innerText = JSON.stringify(doc.data(), null, 2);
+                    });
+                })
+                .catch(error => {
+                    console.error("Error getting documents: ", error);
+                });
+        }
+    </script>
+</body>
+
+</html>

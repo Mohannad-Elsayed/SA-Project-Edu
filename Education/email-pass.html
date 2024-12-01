@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Firebase Auth Example</title>
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-database-compat.js"></script>
+</head>
+
+<body>
+    <!-- Registration Form -->
+    <h2>Register</h2>
+    <input type="email" id="reg-email" placeholder="Email" />
+    <input type="password" id="reg-password" placeholder="Password" />
+    <button onclick="register()">Register</button>
+
+    <!-- Login Form -->
+    <h2>Login</h2>
+    <input type="email" id="login-email" placeholder="Email" />
+    <input type="password" id="login-password" placeholder="Password" />
+    <button onclick="login()">Login</button>
+
+    <script>
+        // Initialize Firebase
+        const firebaseConfig = {
+            apiKey: "AIzaSyBB_8JRR7pehfVX2lNy_xJWwkSSlKgYghU",
+            authDomain: "sa-project-edu.firebaseapp.com",
+            projectId: "sa-project-edu",
+            storageBucket: "sa-project-edu.appspot.com", // Corrected storage bucket URL
+            messagingSenderId: "360441031760",
+            appId: "1:360441031760:web:74b6f95d885cef9934b555",
+            measurementId: "G-6C2JWVGH4Y"
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const auth = firebase.auth();
+        const database = firebase.database();
+
+        // Register function
+        function register() {
+            const email = document.getElementById('reg-email').value;
+            const password = document.getElementById('reg-password').value;
+
+            auth.createUserWithEmailAndPassword(email, password)
+                .then((userCredential) => {
+                    const user = userCredential.user;
+                    // Store additional user data
+                    database.ref('users/' + user.uid).set({
+                        email: email,
+                        balance: 0,
+                        profilePicture: 'default.jpg'
+                        // Add other details as needed
+                    });
+                    alert('Registration Successful');
+                })
+                .catch((error) => {
+                    console.error(error.message);
+                });
+        }
+
+        // Login function
+        function login() {
+            const email = document.getElementById('login-email').value;
+            const password = document.getElementById('login-password').value;
+
+            auth.signInWithEmailAndPassword(email, password)
+                .then((userCredential) => {
+                    alert('Login Successful');
+                })
+                .catch((error) => {
+                    console.error(error.message);
+                });
+        }
+    </script>
+</body>
+
+</html>
