@@ -85,9 +85,13 @@
                         document.getElementById('tourDetails').innerText = 'No matching documents.';
                         return;
                     }
-                    snapshot.forEach(doc => {
-                        document.getElementById('tourDetails').innerText = JSON.stringify(doc.data(), null, 2);
-                    });
+                    console.log(snapshot.docs[0].data().location);
+                    // snapshot.forEach(doc => {
+                    //     json_obj = JSON.stringify(doc.data(), null, 2);
+                    //     // console.log(json_obj["location"]);
+                    //     console.log(doc.data().location);
+                    //     // console.log(json_obj);
+                    // });
                 })
                 .catch(error => {
                     console.error("Error getting documents: ", error);
