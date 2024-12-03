@@ -182,3 +182,10 @@ Here’s a simplified flowchart of how a tourist interacts with the pages:
     Admin workflow:
         Admin logs in and accesses:
             Add Tour, Delete Tour, or View Feedback pages.
+
+
+
+
+delete 404 page
+
+feedback: userid, tourid, feedback
