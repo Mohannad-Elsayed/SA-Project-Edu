@@ -186,6 +186,6 @@ Here’s a simplified flowchart of how a tourist interacts with the pages:
 
 
 
-delete 404 page
 
-feedback: userid, tourid, feedback
+search
+
