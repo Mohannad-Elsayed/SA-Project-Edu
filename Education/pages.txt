@@ -183,12 +183,3 @@ Here’s a simplified flowchart of how a tourist interacts with the pages:
         Admin logs in and accesses:
             Add Tour, Delete Tour, or View Feedback pages.
 
-
-
-
-
-custom travel guides 
-footer in contact page
-youtube icon rounded in all pages
-remove .html in all Links
-
