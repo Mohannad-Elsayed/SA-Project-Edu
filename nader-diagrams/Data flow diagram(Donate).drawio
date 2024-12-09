@@ -1,0 +1,599 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.9" pages="3">
+  <diagram name="Version 1.0" id="b520641d-4fe3-3701-9064-5fc419738815">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-2" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.7px;&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=swimlane;html=1;rounded=1;arcSize=10;collapsible=0;fontStyle=0;startSize=39;whiteSpace=wrap;overflow=block;blockSpacing=1;fontSize=13;spacing=0;verticalAlign=middle;strokeOpacity=100;fillOpacity=100;fillColor=#ffffff;strokeWidth=1.5;swimlaneFillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="935" y="-670" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-3" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:30px;&quot;&gt;Donate &lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;verticalAlign=middle;strokeOpacity=100;fillOpacity=100;strokeWidth=1.5;" parent="HQpnCoinPFY2TKj2kgrf-2" vertex="1">
+          <mxGeometry y="39" width="240" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-4" value="Donor " style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=20;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=1.5;lucidId=UoCt~2oaXBa2;" parent="1" vertex="1">
+          <mxGeometry x="470" y="-670" width="195" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-5" value="Payment gateway" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=20;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=1.5;lucidId=UoCtgNpYnYyZ;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="-670" width="194" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-6" value="" style="html=1;jettySize=18;whiteSpace=wrap;overflow=block;blockSpacing=1;fontSize=13;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;exitX=1.004;exitY=0.356;exitPerimeter=0;entryX=-0.003;entryY=0.391;entryPerimeter=0;lucidId=UoCtfP8-i752;" parent="1" source="HQpnCoinPFY2TKj2kgrf-4" target="HQpnCoinPFY2TKj2kgrf-2" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-7" value="Donation Informationt" style="text;html=1;resizable=0;labelBackgroundColor=default;align=center;verticalAlign=middle;fontStyle=1;fontSize=18.3;" parent="HQpnCoinPFY2TKj2kgrf-6" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-8" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;exitX=-0.003;exitY=0.782;exitPerimeter=0;entryX=1.004;entryY=0.711;entryPerimeter=0;lucidId=UoCtTdOCbgOj;" parent="1" source="HQpnCoinPFY2TKj2kgrf-2" target="HQpnCoinPFY2TKj2kgrf-4" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-9" value="Payment Confirmation" style="text;html=1;resizable=0;labelBackgroundColor=default;align=center;verticalAlign=middle;fontStyle=1;fontSize=20;" parent="HQpnCoinPFY2TKj2kgrf-8" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-10" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;exitX=1.003;exitY=0.36;exitPerimeter=0;entryX=-0.004;entryY=0.36;entryPerimeter=0;lucidId=UoCtftTxLA1r;" parent="1" source="HQpnCoinPFY2TKj2kgrf-2" target="HQpnCoinPFY2TKj2kgrf-5" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-11" value="Payment Information " style="text;html=1;resizable=0;labelBackgroundColor=default;align=center;verticalAlign=middle;fontStyle=1;fontSize=18.3;" parent="HQpnCoinPFY2TKj2kgrf-10" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-12" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;exitX=-0.004;exitY=0.775;exitPerimeter=0;entryX=1.003;entryY=0.775;entryPerimeter=0;lucidId=UoCt1MDef_rT;" parent="1" source="HQpnCoinPFY2TKj2kgrf-5" target="HQpnCoinPFY2TKj2kgrf-2" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-13" value="Payment Status" style="text;html=1;resizable=0;labelBackgroundColor=default;align=center;verticalAlign=middle;fontStyle=1;fontSize=18.3;" parent="HQpnCoinPFY2TKj2kgrf-12" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-14" value="Donor" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=20;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=1.5;lucidId=UoCtsEH33mEw;" parent="1" vertex="1">
+          <mxGeometry x="470" y="-385" width="195" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-15" value="Payment gateway" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=20;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=1.5;lucidId=UoCt5a3l6Ad0;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="-385" width="194" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-16" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.7px;font-weight: bold;&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=swimlane;html=1;rounded=1;arcSize=10;collapsible=0;fontStyle=0;startSize=39;whiteSpace=wrap;overflow=block;blockSpacing=1;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=100;fillColor=#ffffff;strokeWidth=1.5;swimlaneFillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="860" y="-385" width="165" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-17" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:18.3px;font-weight: bold;&quot;&gt;Enter donation details&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=100;strokeWidth=1.5;" parent="HQpnCoinPFY2TKj2kgrf-16" vertex="1">
+          <mxGeometry y="39" width="165" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-18" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.7px;&quot;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=swimlane;html=1;rounded=1;arcSize=10;collapsible=0;fontStyle=0;startSize=39;whiteSpace=wrap;overflow=block;blockSpacing=1;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=100;fillColor=#ffffff;strokeWidth=1.5;swimlaneFillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="980" y="140" width="180" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-19" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:18.3px;font-weight: bold;&quot;&gt;Create Confirmation &lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=100;strokeWidth=1.5;" parent="HQpnCoinPFY2TKj2kgrf-18" vertex="1">
+          <mxGeometry y="39" width="180" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-20" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.7px;font-weight: bold;&quot;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=swimlane;html=1;rounded=1;arcSize=10;collapsible=0;fontStyle=0;startSize=39;whiteSpace=wrap;overflow=block;blockSpacing=1;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=100;fillColor=#ffffff;strokeWidth=1.5;swimlaneFillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="-385" width="165" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-21" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:20px;font-weight: bold;&quot;&gt;Process Payment&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=100;strokeWidth=1.5;" parent="HQpnCoinPFY2TKj2kgrf-20" vertex="1">
+          <mxGeometry y="39" width="165" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-22" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;exitX=0.569;exitY=1.017;exitPerimeter=0;entryX=1.004;entryY=0.5;entryPerimeter=0;lucidId=UoCtF8Rh~02U;" parent="1" source="HQpnCoinPFY2TKj2kgrf-28" target="HQpnCoinPFY2TKj2kgrf-18" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-23" value="Donaton Details" style="text;html=1;resizable=0;labelBackgroundColor=default;align=center;verticalAlign=middle;fontStyle=1;fontColor=#333333;fontSize=20;" parent="HQpnCoinPFY2TKj2kgrf-22" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-24" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;exitX=1.004;exitY=0.5;exitPerimeter=0;entryX=-0.005;entryY=0.5;entryPerimeter=0;lucidId=UoCtbT_w9NjC;" parent="1" source="HQpnCoinPFY2TKj2kgrf-14" target="HQpnCoinPFY2TKj2kgrf-16" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-25" value="Donation Information" style="text;html=1;resizable=0;labelBackgroundColor=default;align=center;verticalAlign=middle;fontStyle=1;fontSize=16.7;" parent="HQpnCoinPFY2TKj2kgrf-24" vertex="1">
+          <mxGeometry x="-0.1007749804699658" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-26" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;exitX=-0.004;exitY=0.5;exitPerimeter=0;entryX=1.005;entryY=0.5;entryPerimeter=0;lucidId=UoCt5UzhoF6v;" parent="1" source="HQpnCoinPFY2TKj2kgrf-15" target="HQpnCoinPFY2TKj2kgrf-20" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-27" value="Payment Status" style="text;html=1;resizable=0;labelBackgroundColor=default;align=center;verticalAlign=middle;fontStyle=1;fontSize=18.3;" parent="HQpnCoinPFY2TKj2kgrf-26" vertex="1">
+          <mxGeometry x="-0.12403078991651417" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-28" value="Payment Transactions" style="html=1;overflow=block;blockSpacing=1;shape=partialRectangle;right=0;whiteSpace=wrap;fontSize=16;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="-115" width="165" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-29" value="" style="part=1;whiteSpace=wrap;fontSize=13;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=1.5;" parent="HQpnCoinPFY2TKj2kgrf-28" vertex="1">
+          <mxGeometry width="33" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-30" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;exitX=0.34;exitY=1.006;exitPerimeter=0;entryX=0.5;entryY=1.006;entryPerimeter=0;lucidId=UoCt-6mziONi;" parent="1" source="HQpnCoinPFY2TKj2kgrf-18" target="HQpnCoinPFY2TKj2kgrf-14" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1041" y="306" />
+              <mxPoint x="568" y="306" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-31" value="Payment Confirmation" style="text;html=1;resizable=0;labelBackgroundColor=default;align=center;verticalAlign=middle;fontStyle=1;fontSize=20;" parent="HQpnCoinPFY2TKj2kgrf-30" vertex="1">
+          <mxGeometry x="0.5423863911140481" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-32" value="Donors  DB" style="html=1;overflow=block;blockSpacing=1;shape=partialRectangle;right=0;whiteSpace=wrap;fontSize=16.7;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="860" y="-115" width="165" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-33" value="" style="part=1;whiteSpace=wrap;fontSize=13;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=1.5;" parent="HQpnCoinPFY2TKj2kgrf-32" vertex="1">
+          <mxGeometry width="33" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-34" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;exitX=0.5;exitY=1.006;exitPerimeter=0;entryX=0.5;entryY=-0.017;entryPerimeter=0;lucidId=UoCt9flkNTXf;" parent="1" source="HQpnCoinPFY2TKj2kgrf-16" target="HQpnCoinPFY2TKj2kgrf-32" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-35" value="Donor data" style="text;html=1;resizable=0;labelBackgroundColor=default;align=center;verticalAlign=middle;fontStyle=1;fontColor=#333333;fontSize=18.3;" parent="HQpnCoinPFY2TKj2kgrf-34" vertex="1">
+          <mxGeometry x="-0.2271233029162717" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-36" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;exitX=0.498;exitY=1.017;exitPerimeter=0;entryX=-0.004;entryY=0.5;entryPerimeter=0;lucidId=UoCtW3jpyE4s;" parent="1" source="HQpnCoinPFY2TKj2kgrf-32" target="HQpnCoinPFY2TKj2kgrf-18" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-37" value="Donor details" style="text;html=1;resizable=0;labelBackgroundColor=default;align=center;verticalAlign=middle;fontStyle=1;fontColor=#333333;fontSize=20;" parent="HQpnCoinPFY2TKj2kgrf-36" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-38" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;exitX=0.667;exitY=1.006;exitPerimeter=0;entryX=0.5;entryY=1.006;entryPerimeter=0;lucidId=UoCt~pcf8iVl;" parent="1" source="HQpnCoinPFY2TKj2kgrf-18" target="HQpnCoinPFY2TKj2kgrf-15" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-39" value="Donation Information" style="text;html=1;resizable=0;labelBackgroundColor=default;align=center;verticalAlign=middle;fontStyle=1;fontColor=#333333;fontSize=23.3;" parent="HQpnCoinPFY2TKj2kgrf-38" vertex="1">
+          <mxGeometry x="0.49550718483610257" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-40" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=12;edgeStyle=orthogonalEdgeStyle;startArrow=none;exitX=0.553;exitY=1.006;exitPerimeter=0;entryX=0.553;entryY=-0.017;entryPerimeter=0;lucidId=UoCtk3XNWU7g;" parent="1" source="HQpnCoinPFY2TKj2kgrf-20" target="HQpnCoinPFY2TKj2kgrf-28" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-41" value="Donation data" style="text;html=1;resizable=0;labelBackgroundColor=default;align=center;verticalAlign=middle;fontStyle=1;fontColor=#333333;fontSize=18.3;" parent="HQpnCoinPFY2TKj2kgrf-40" vertex="1">
+          <mxGeometry x="-0.163467256323383" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-42" value="&amp;lt;&amp;lt;Level 0&amp;gt;&amp;gt;" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=30;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=2.3;strokeColor=none;lucidId=UoCtrINDnz.h;" parent="1" vertex="1">
+          <mxGeometry x="950" y="-760" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="HQpnCoinPFY2TKj2kgrf-43" value="&amp;lt;&amp;lt;Level 1&amp;gt;&amp;gt;" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=30;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=2.3;strokeColor=none;lucidId=UoCt9.E0PKAV;" parent="1" vertex="1">
+          <mxGeometry x="950" y="-475" width="180" height="45" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="k4Mf3sh9rggqYsPcFo2z" name="Version 1.1">
+    <mxGraphModel dx="1772" dy="1852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-112" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="70" y="-803" width="1460" height="980" as="geometry" />
+        </mxCell>
+        <mxCell id="bzqF9nDbgKAngUZ5g44k-1" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.7px;&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=swimlane;html=1;rounded=1;arcSize=10;collapsible=0;fontStyle=0;startSize=39;whiteSpace=wrap;overflow=block;blockSpacing=1;fontSize=13;spacing=0;verticalAlign=middle;strokeOpacity=100;fillOpacity=100;strokeWidth=1.5;swimlaneFillColor=#ffffff;" parent="7gNyWEO1abiqnoM_8y8A-112" vertex="1">
+          <mxGeometry x="599.0000000000001" y="130" width="224" height="150.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="bzqF9nDbgKAngUZ5g44k-2" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:30px;&quot;&gt;Donate online&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;verticalAlign=middle;strokeOpacity=100;fillOpacity=100;strokeWidth=1.5;" parent="bzqF9nDbgKAngUZ5g44k-1" vertex="1">
+          <mxGeometry y="39.00000000000001" width="220" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-58" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1.006;exitY=0.284;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=3;" parent="7gNyWEO1abiqnoM_8y8A-112" source="bzqF9nDbgKAngUZ5g44k-3" target="bzqF9nDbgKAngUZ5g44k-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-59" value="Donation details" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontStyle=1" parent="7gNyWEO1abiqnoM_8y8A-58" connectable="0" vertex="1">
+          <mxGeometry x="0.011" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bzqF9nDbgKAngUZ5g44k-3" value="Donor " style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=20;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=1.5;lucidId=UoCt~2oaXBa2;" parent="7gNyWEO1abiqnoM_8y8A-112" vertex="1">
+          <mxGeometry x="104" y="130" width="210.00000000000003" height="140.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="bzqF9nDbgKAngUZ5g44k-9" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeOpacity=100;strokeWidth=3;rounded=1;arcSize=12;startArrow=none;lucidId=UoCtftTxLA1r;entryX=0.009;entryY=0.28;entryDx=0;entryDy=0;entryPerimeter=0;" parent="7gNyWEO1abiqnoM_8y8A-112" target="7gNyWEO1abiqnoM_8y8A-37" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="824.0000000000001" y="168.99999999999997" as="sourcePoint" />
+            <mxPoint x="1145" y="168.99999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-62" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bzqF9nDbgKAngUZ5g44k-9" connectable="0" vertex="1">
+          <mxGeometry x="-0.0701" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-63" value="&lt;span&gt;Payment Information&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=17;" parent="bzqF9nDbgKAngUZ5g44k-9" connectable="0" vertex="1">
+          <mxGeometry x="-0.0484" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bzqF9nDbgKAngUZ5g44k-15" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.7px;font-weight: bold;&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=swimlane;html=1;rounded=1;arcSize=10;collapsible=0;fontStyle=0;startSize=39;whiteSpace=wrap;overflow=block;blockSpacing=1;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=100;strokeWidth=1.5;swimlaneFillColor=#ffffff;" parent="7gNyWEO1abiqnoM_8y8A-112" vertex="1">
+          <mxGeometry x="350" y="407.00000000000006" width="184" height="140.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="bzqF9nDbgKAngUZ5g44k-16" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:18.3px;font-weight: bold;&quot;&gt;Submit donation details&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=100;strokeWidth=1.5;" parent="bzqF9nDbgKAngUZ5g44k-15" vertex="1">
+          <mxGeometry y="39.00000000000001" width="184" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="bzqF9nDbgKAngUZ5g44k-17" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.7px;&quot;&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=swimlane;html=1;rounded=1;arcSize=10;collapsible=0;fontStyle=0;startSize=39;whiteSpace=wrap;overflow=block;blockSpacing=1;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=100;strokeWidth=1.5;swimlaneFillColor=#ffffff;" parent="7gNyWEO1abiqnoM_8y8A-112" vertex="1">
+          <mxGeometry x="560.0000000000001" y="767" width="180.00000000000003" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="bzqF9nDbgKAngUZ5g44k-18" value="&lt;span style=&quot;font-size: 18.3px;&quot;&gt;&lt;b&gt;Confirm payment&lt;/b&gt;&lt;/span&gt;" style="rounded=1;arcSize=10;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=100;strokeWidth=1.5;" parent="bzqF9nDbgKAngUZ5g44k-17" vertex="1">
+          <mxGeometry y="39.000000000000014" width="180.00000000000003" height="96.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.332;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" parent="7gNyWEO1abiqnoM_8y8A-112" source="bzqF9nDbgKAngUZ5g44k-27" target="7gNyWEO1abiqnoM_8y8A-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1069.9999999999998" y="637" />
+              <mxPoint x="1170" y="637" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-96" value="&lt;span&gt;Transaction details&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontStyle=1" parent="7gNyWEO1abiqnoM_8y8A-95" connectable="0" vertex="1">
+          <mxGeometry x="-0.2814" y="4" relative="1" as="geometry">
+            <mxPoint x="35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bzqF9nDbgKAngUZ5g44k-27" value="Transactions&lt;div&gt;DB&lt;/div&gt;" style="html=1;overflow=block;blockSpacing=1;shape=partialRectangle;right=0;whiteSpace=wrap;fontSize=16;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=1.5;" parent="7gNyWEO1abiqnoM_8y8A-112" vertex="1">
+          <mxGeometry x="960.0000000000001" y="547" width="165" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="bzqF9nDbgKAngUZ5g44k-28" value="" style="part=1;whiteSpace=wrap;fontSize=13;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=1.5;" parent="bzqF9nDbgKAngUZ5g44k-27" vertex="1">
+          <mxGeometry width="30" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="bzqF9nDbgKAngUZ5g44k-31" value="Donors  DB" style="html=1;overflow=block;blockSpacing=1;shape=partialRectangle;right=0;whiteSpace=wrap;fontSize=16.7;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=1.5;" parent="7gNyWEO1abiqnoM_8y8A-112" vertex="1">
+          <mxGeometry x="540" y="627" width="165" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="bzqF9nDbgKAngUZ5g44k-32" value="" style="part=1;whiteSpace=wrap;fontSize=13;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=1.5;" parent="bzqF9nDbgKAngUZ5g44k-31" vertex="1">
+          <mxGeometry width="32.99999999999999" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" parent="7gNyWEO1abiqnoM_8y8A-112" source="7gNyWEO1abiqnoM_8y8A-35" target="bzqF9nDbgKAngUZ5g44k-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="497.00000000000006" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-81" value="&lt;span style=&quot;&quot;&gt;Donation Information&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontStyle=1" parent="7gNyWEO1abiqnoM_8y8A-80" connectable="0" vertex="1">
+          <mxGeometry x="-0.0136" y="1" relative="1" as="geometry">
+            <mxPoint x="6" y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-35" value="Donor " style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=20;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=1.5;lucidId=UoCt~2oaXBa2;" parent="7gNyWEO1abiqnoM_8y8A-112" vertex="1">
+          <mxGeometry x="210.00000000000003" y="666" width="210.00000000000003" height="140.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" parent="7gNyWEO1abiqnoM_8y8A-112" source="7gNyWEO1abiqnoM_8y8A-36" target="7gNyWEO1abiqnoM_8y8A-78" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="497.00000000000006" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-85" value="&lt;span style=&quot;&quot;&gt;Validation info&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontStyle=1" parent="7gNyWEO1abiqnoM_8y8A-84" connectable="0" vertex="1">
+          <mxGeometry x="0.036" y="-5" relative="1" as="geometry">
+            <mxPoint x="-48" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-36" value="Payment gateway" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=20;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=1.5;lucidId=UoCt~2oaXBa2;" parent="7gNyWEO1abiqnoM_8y8A-112" vertex="1">
+          <mxGeometry x="1099.9999999999998" y="687.0000000000001" width="210.00000000000003" height="140.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" parent="7gNyWEO1abiqnoM_8y8A-112" source="7gNyWEO1abiqnoM_8y8A-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="824.0000000000001" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="822.9999999999999" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-65" value="&lt;span&gt;Payment Status&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=17;" parent="7gNyWEO1abiqnoM_8y8A-64" connectable="0" vertex="1">
+          <mxGeometry x="-0.032" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-37" value="Payment gateway" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=20;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=1.5;lucidId=UoCt~2oaXBa2;" parent="7gNyWEO1abiqnoM_8y8A-112" vertex="1">
+          <mxGeometry x="1144" y="130" width="210.00000000000003" height="140.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-60" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.854;entryDx=0;entryDy=0;exitX=0.006;exitY=0.723;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;strokeWidth=3;" parent="7gNyWEO1abiqnoM_8y8A-112" source="bzqF9nDbgKAngUZ5g44k-2" target="bzqF9nDbgKAngUZ5g44k-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-61" value="&lt;span&gt;Payment Confirmation&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontStyle=1" parent="7gNyWEO1abiqnoM_8y8A-60" connectable="0" vertex="1">
+          <mxGeometry x="0.0419" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-77" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; line-height: 1.25; margin-top: -2px;&quot;&gt;&lt;span style=&quot;font-size: 16.7px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=swimlane;html=1;rounded=1;arcSize=10;collapsible=0;fontStyle=0;startSize=39;whiteSpace=wrap;overflow=block;blockSpacing=1;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=100;strokeWidth=1.5;swimlaneFillColor=#ffffff;" parent="7gNyWEO1abiqnoM_8y8A-112" vertex="1">
+          <mxGeometry x="740" y="407.00000000000006" width="184" height="140.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.005;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" parent="7gNyWEO1abiqnoM_8y8A-77" target="bzqF9nDbgKAngUZ5g44k-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20.000000000000004" y="440" as="targetPoint" />
+            <mxPoint x="89.00000000000003" y="140.00000000000014" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="89.00000000000003" y="290.00000000000006" />
+              <mxPoint x="90.00000000000001" y="290.00000000000006" />
+              <mxPoint x="90.00000000000001" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-91" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;Payment details&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontStyle=1" parent="7gNyWEO1abiqnoM_8y8A-90" connectable="0" vertex="1">
+          <mxGeometry x="-0.2897" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-78" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; line-height: 1.25; margin-top: -2px;&quot;&gt;&lt;span style=&quot;font-size: 18.3px;&quot;&gt;&lt;b&gt;Check if card valid&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=100;strokeWidth=1.5;" parent="7gNyWEO1abiqnoM_8y8A-77" vertex="1">
+          <mxGeometry y="39.00000000000001" width="184" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-79" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" parent="7gNyWEO1abiqnoM_8y8A-112" source="bzqF9nDbgKAngUZ5g44k-16" target="7gNyWEO1abiqnoM_8y8A-78" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-82" value="&lt;span&gt;Card details&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontStyle=1" parent="7gNyWEO1abiqnoM_8y8A-79" connectable="0" vertex="1">
+          <mxGeometry x="0.0146" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" parent="7gNyWEO1abiqnoM_8y8A-112" source="bzqF9nDbgKAngUZ5g44k-18" target="bzqF9nDbgKAngUZ5g44k-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="669.9999999999999" y="927.0000000000001" />
+              <mxPoint x="1030" y="927.0000000000001" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-94" value="&lt;span&gt;Paid amount&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontStyle=1" parent="7gNyWEO1abiqnoM_8y8A-92" connectable="0" vertex="1">
+          <mxGeometry x="-0.066" y="-2" relative="1" as="geometry">
+            <mxPoint x="-23" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.558;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" parent="7gNyWEO1abiqnoM_8y8A-112" source="bzqF9nDbgKAngUZ5g44k-16" target="bzqF9nDbgKAngUZ5g44k-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="441.99999999999994" y="577" />
+              <mxPoint x="632" y="577" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-98" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;Donor data&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontStyle=1" parent="7gNyWEO1abiqnoM_8y8A-97" connectable="0" vertex="1">
+          <mxGeometry x="-0.0454" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;exitX=0.388;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;" parent="7gNyWEO1abiqnoM_8y8A-112" source="bzqF9nDbgKAngUZ5g44k-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625.0000000000002" y="902" as="sourcePoint" />
+            <mxPoint x="310" y="806.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630.0000000000001" y="927.0000000000001" />
+              <mxPoint x="310" y="927.0000000000001" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-107" value="&lt;span&gt;Payment status&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=17;" parent="7gNyWEO1abiqnoM_8y8A-106" connectable="0" vertex="1">
+          <mxGeometry x="-0.166" y="-7" relative="1" as="geometry">
+            <mxPoint y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-110" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;span&gt;Level 0&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=7;fontStyle=0" parent="7gNyWEO1abiqnoM_8y8A-112" vertex="1">
+          <mxGeometry x="610.0000000000001" y="30" width="280.00000000000006" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7gNyWEO1abiqnoM_8y8A-111" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;Level 1&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=7;fontStyle=0" parent="7gNyWEO1abiqnoM_8y8A-112" vertex="1">
+          <mxGeometry x="610.0000000000001" y="310" width="280.00000000000006" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gormmZRzJMa2r1T4jImg" name="Version 1.2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--2" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.7px;&quot;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=swimlane;html=1;rounded=1;arcSize=10;collapsible=0;fontStyle=0;startSize=39;whiteSpace=wrap;overflow=block;blockSpacing=1;fontSize=13;spacing=0;verticalAlign=middle;strokeOpacity=100;fillOpacity=100;strokeWidth=1.5;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2206" y="-84" width="224" height="150.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--3" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:30px;&quot;&gt;Donate online&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=8;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;verticalAlign=middle;strokeOpacity=100;fillOpacity=100;strokeWidth=1.5;" vertex="1" parent="g_ITbgVmTARo5FFhJ-7--2">
+          <mxGeometry y="39.00000000000001" width="220" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1.006;exitY=0.284;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="g_ITbgVmTARo5FFhJ-7--6" target="g_ITbgVmTARo5FFhJ-7--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--5" value="Donation details" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontStyle=1" connectable="0" vertex="1" parent="g_ITbgVmTARo5FFhJ-7--4">
+          <mxGeometry x="0.011" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--6" value="Donor " style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=20;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=1.5;lucidId=UoCt~2oaXBa2;" vertex="1" parent="1">
+          <mxGeometry x="1711" y="-84" width="210.00000000000003" height="140.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--7" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeOpacity=100;strokeWidth=3;rounded=1;arcSize=12;startArrow=none;lucidId=UoCtftTxLA1r;entryX=0.009;entryY=0.28;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="g_ITbgVmTARo5FFhJ-7--28">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="2431" y="-45.00000000000003" as="sourcePoint" />
+            <mxPoint x="2752" y="-45.00000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--8" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="g_ITbgVmTARo5FFhJ-7--7">
+          <mxGeometry x="-0.0701" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--9" value="&lt;span&gt;Payment Information&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=17;" connectable="0" vertex="1" parent="g_ITbgVmTARo5FFhJ-7--7">
+          <mxGeometry x="-0.0484" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--10" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.7px;font-weight: bold;&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=swimlane;html=1;rounded=1;arcSize=10;collapsible=0;fontStyle=0;startSize=39;whiteSpace=wrap;overflow=block;blockSpacing=1;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=100;strokeWidth=1.5;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="297.00000000000006" width="184" height="140.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--11" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:18.3px;font-weight: bold;&quot;&gt;Submit donation details&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=100;strokeWidth=1.5;" vertex="1" parent="g_ITbgVmTARo5FFhJ-7--10">
+          <mxGeometry y="39.00000000000001" width="184" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--12" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; line-height: 1.25; margin-top: -2px;&quot;&gt;&lt;span style=&quot;font-size: 16.7px;&quot;&gt;4&lt;/span&gt;&lt;/div&gt;" style="shape=swimlane;html=1;rounded=1;arcSize=10;collapsible=0;fontStyle=0;startSize=39;whiteSpace=wrap;overflow=block;blockSpacing=1;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=100;strokeWidth=1.5;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2094" y="643" width="180.00000000000003" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--13" value="&lt;span style=&quot;font-size: 18.3px;&quot;&gt;&lt;b&gt;Confirm payment&lt;/b&gt;&lt;/span&gt;" style="rounded=1;arcSize=10;strokeColor=none;fillColor=none;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=100;strokeWidth=1.5;" vertex="1" parent="g_ITbgVmTARo5FFhJ-7--12">
+          <mxGeometry y="39.000000000000014" width="180.00000000000003" height="96.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="e3ZISmwhm8BcBLbCaIlF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="g_ITbgVmTARo5FFhJ-7--17" target="g_ITbgVmTARo5FFhJ-7--13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2362" y="546" />
+              <mxPoint x="2362" y="730" />
+            </Array>
+            <mxPoint x="2184" y="778" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3ZISmwhm8BcBLbCaIlF-7" value="&lt;span style=&quot;font-size: 17px; font-weight: 700;&quot;&gt;Paid amount&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e3ZISmwhm8BcBLbCaIlF-5">
+          <mxGeometry x="-0.0829" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--16" value="Transactions&lt;div&gt;DB&lt;/div&gt;" style="html=1;overflow=block;blockSpacing=1;shape=partialRectangle;right=0;whiteSpace=wrap;fontSize=16;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="2449.5" y="523" width="165" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--17" value="" style="part=1;whiteSpace=wrap;fontSize=13;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=1.5;" vertex="1" parent="g_ITbgVmTARo5FFhJ-7--16">
+          <mxGeometry width="30" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="e3ZISmwhm8BcBLbCaIlF-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="g_ITbgVmTARo5FFhJ-7--18" target="g_ITbgVmTARo5FFhJ-7--12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2184" y="610" />
+              <mxPoint x="2184" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zSslKqgPyPKrVuHJB_S-5" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b style=&quot;&quot;&gt;donor email&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="e3ZISmwhm8BcBLbCaIlF-3">
+          <mxGeometry x="0.0133" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--18" value="Donors  DB" style="html=1;overflow=block;blockSpacing=1;shape=partialRectangle;right=0;whiteSpace=wrap;fontSize=16.7;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="2095" y="523" width="165" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--19" value="" style="part=1;whiteSpace=wrap;fontSize=13;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=1.5;" vertex="1" parent="g_ITbgVmTARo5FFhJ-7--18">
+          <mxGeometry width="32.99999999999999" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="g_ITbgVmTARo5FFhJ-7--22" target="g_ITbgVmTARo5FFhJ-7--11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1960" y="387.00000000000006" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--21" value="&lt;span style=&quot;&quot;&gt;Donation Information&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontStyle=1" connectable="0" vertex="1" parent="g_ITbgVmTARo5FFhJ-7--20">
+          <mxGeometry x="-0.0136" y="1" relative="1" as="geometry">
+            <mxPoint x="6" y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--22" value="Donor " style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=20;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=1.5;lucidId=UoCt~2oaXBa2;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="297" width="210.00000000000003" height="140.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="UsbRTFvMR2CTjGBX1bCU-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="g_ITbgVmTARo5FFhJ-7--25" target="UsbRTFvMR2CTjGBX1bCU-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2920" y="713" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UsbRTFvMR2CTjGBX1bCU-22" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;Validation info&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UsbRTFvMR2CTjGBX1bCU-19">
+          <mxGeometry x="0.2927" y="-4" relative="1" as="geometry">
+            <mxPoint x="-39" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--25" value="Payment gateway" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=20;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=1.5;lucidId=UoCt~2oaXBa2;" vertex="1" parent="1">
+          <mxGeometry x="2800" y="297.0000000000001" width="210.00000000000003" height="140.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="g_ITbgVmTARo5FFhJ-7--28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2431" y="36" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2430" y="36" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--27" value="&lt;span&gt;Payment Status&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=17;" connectable="0" vertex="1" parent="g_ITbgVmTARo5FFhJ-7--26">
+          <mxGeometry x="-0.032" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--28" value="Payment gateway" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=20;fontStyle=1;spacing=0;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=1.5;lucidId=UoCt~2oaXBa2;" vertex="1" parent="1">
+          <mxGeometry x="2751" y="-84" width="210.00000000000003" height="140.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.854;entryDx=0;entryDy=0;exitX=0.006;exitY=0.723;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="g_ITbgVmTARo5FFhJ-7--3" target="g_ITbgVmTARo5FFhJ-7--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--30" value="&lt;span&gt;Payment Confirmation&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontStyle=1" connectable="0" vertex="1" parent="g_ITbgVmTARo5FFhJ-7--29">
+          <mxGeometry x="0.0419" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--31" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; line-height: 1.25; margin-top: -2px;&quot;&gt;&lt;span style=&quot;font-size: 16.7px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=swimlane;html=1;rounded=1;arcSize=10;collapsible=0;fontStyle=0;startSize=39;whiteSpace=wrap;overflow=block;blockSpacing=1;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=100;strokeWidth=1.5;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="297.00000000000006" width="184" height="140.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--34" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; line-height: 1.25; margin-top: -2px;&quot;&gt;&lt;span style=&quot;font-size: 18.3px;&quot;&gt;&lt;b&gt;Check if card valid&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=100;strokeWidth=1.5;" vertex="1" parent="g_ITbgVmTARo5FFhJ-7--31">
+          <mxGeometry y="39.00000000000001" width="184" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--35" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" target="g_ITbgVmTARo5FFhJ-7--34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2270" y="380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--36" value="&lt;span&gt;Card details&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontStyle=1" connectable="0" vertex="1" parent="g_ITbgVmTARo5FFhJ-7--35">
+          <mxGeometry x="0.0146" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="g_ITbgVmTARo5FFhJ-7--11" target="g_ITbgVmTARo5FFhJ-7--18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2182" y="500" />
+              <mxPoint x="2182" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--40" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;Donor data&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontStyle=1" connectable="0" vertex="1" parent="g_ITbgVmTARo5FFhJ-7--39">
+          <mxGeometry x="-0.0454" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="g_ITbgVmTARo5FFhJ-7--13" target="g_ITbgVmTARo5FFhJ-7--22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2275" y="792" as="sourcePoint" />
+            <mxPoint x="1960" y="696.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2094" y="733" />
+              <mxPoint x="1785" y="733" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--42" value="&lt;span&gt;Payment status&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=17;" connectable="0" vertex="1" parent="g_ITbgVmTARo5FFhJ-7--41">
+          <mxGeometry x="-0.166" y="-7" relative="1" as="geometry">
+            <mxPoint y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--43" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;span&gt;Level 0&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=7;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="2178" y="-210" width="280.00000000000006" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_ITbgVmTARo5FFhJ-7--44" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;Level 1&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=7;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="2206" y="190" width="280.00000000000006" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1zSslKqgPyPKrVuHJB_S-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UsbRTFvMR2CTjGBX1bCU-13" target="g_ITbgVmTARo5FFhJ-7--16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UsbRTFvMR2CTjGBX1bCU-13" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; line-height: 1.25; margin-top: -2px;&quot;&gt;&lt;span style=&quot;font-size: 16.7px;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=swimlane;html=1;rounded=1;arcSize=10;collapsible=0;fontStyle=0;startSize=39;whiteSpace=wrap;overflow=block;blockSpacing=1;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=100;strokeWidth=1.5;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="640.5" width="184" height="140.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="UsbRTFvMR2CTjGBX1bCU-18" value="&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; line-height: 1.25; margin-top: -2px;&quot;&gt;&lt;span style=&quot;font-size: 18.3px;&quot;&gt;&lt;b&gt;proceed payment&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;strokeOpacity=100;fillOpacity=100;strokeWidth=1.5;" vertex="1" parent="UsbRTFvMR2CTjGBX1bCU-13">
+          <mxGeometry y="39" width="184" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="HS1Em8OTJuU6hnRPZM84-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;entryX=-0.019;entryY=0.621;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="g_ITbgVmTARo5FFhJ-7--25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2684" y="386.5" as="targetPoint" />
+            <mxPoint x="2630" y="384" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HS1Em8OTJuU6hnRPZM84-2" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;Card status&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HS1Em8OTJuU6hnRPZM84-1">
+          <mxGeometry x="-0.0913" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1zSslKqgPyPKrVuHJB_S-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="UsbRTFvMR2CTjGBX1bCU-13" target="g_ITbgVmTARo5FFhJ-7--16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3ZISmwhm8BcBLbCaIlF-6" value="&lt;span style=&quot;font-size: 17px; font-weight: 700;&quot;&gt;Transaction details&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1zSslKqgPyPKrVuHJB_S-3">
+          <mxGeometry x="-0.2377" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
